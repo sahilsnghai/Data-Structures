@@ -4,13 +4,13 @@ import Stack
 def parseParenthesis(string):
     balance = 1
     indx = 0
-    stck = Stack.Stack(len(string))
+    stck = Stack.Stack(len(string))#4
     while(indx < len(string)) and (balance == 1):
-        check = string[indx]
+        check = string[indx]#( ) ) ( ( )
         if check == '(':
-            stck.push(check)
+            stck.push(check) #check =( 
         else:
-            if stck.isEmpty():
+            if stck.isEmpty(): 
                 balance = 0
             else:
                 stck.pop()
@@ -26,3 +26,10 @@ if __name__ == '__main__':
     print(parseParenthesis("()()"))
     print(parseParenthesis("(())"))
     print(parseParenthesis("())(()"))
+# | |
+# | |
+# | |
+# | |
+# | |
+# | |
+# ___

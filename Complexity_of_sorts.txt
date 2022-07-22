@@ -1,0 +1,15 @@
+Algorithm                 Time Complexity	   	  Space Complexity
+ 	        Best		Average	Worst	  Worst
+Selection Sort	Ω(n^2)		θ(n^2)	          O(n^2)	        O(1)
+Bubble Sort	Ω(n)		θ(n^2)		  O(n^2)		O(1)
+Insertion Sort	Ω(n)		θ(n^2)		  O(n^2)		O(1)
+Heap Sort	Ω(nlog(n))	θ(nlog(n))	  O(nlog(n))		O(1)
+Quick Sort	Ω(nlog(n))	θ(nlog(n))	  O(n^2)		O(log(n))
+Merge Sort	Ω(nlog(n))	θ(nlog(n))	  O(nlog(n))		O(n)
+Bucket Sort	Ω(n+k)		θ(n+k)		  O(n^2)		O(n)
+Radix Sort	Ω(nk)		θ(nk)		  O(nk)			O(n + k)
+Count Sort	Ω(n+k)		θ(n+k)		  O(n+k)		O(k)
+Shell Sort	Ω(n)		θ(nlog(n))	  O(nlog(n))		O(1)
+Tim Sort	Ω(n)		θ((nlog(n))^2)	  O((nlogn(n))^2)	O(n)
+Tree Sort	Ω(nlog(n))	θ(nlog(n))	  O(n^2)		O(n)
+Cube Sort	Ω(n)		θ(nlog(n))	  O(nlog(n))		O(n)
